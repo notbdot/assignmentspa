@@ -1,0 +1,60 @@
+.container{
+    height:300px;
+    width:1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 8px 3px white;
+}
+
+.title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+  }
+
+.Question{
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: black;
+  }
+
+.Choice{
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: darkgray;
+    margin: 10px 0 10px 10px;
+    color: black;
+    border-radius: 20px;
+  }
+  
+.Choice:hover{
+    background: blue;
+    color: white;
+  }
+
+.nextQuestion{
+    border: none;
+    outline:none;
+    background: rgba(255,255,255,0.5);
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+  }
+  
+.nextQuestion:hover{
+    background: #08038C;
+    color: #F6F6F6;
+  }
+
