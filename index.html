@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <script src = "https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+        <title>Quizzes</title>
+    </head>
+
+    <body>
+        <h1>Welcome!</h1>
+        <h2>Java Quiz</h2>
+
+        <div id="quiz" class="container">
+            <div class="title">Java</div>
+            <div id="Question" class="Question"></div>
+       <label class = "Choice"><input type="radio" name="Choice" value ="1"/><span id = "Choice1"></span></label>
+      <label class = "Choice"><input type="radio" name="Choice" value ="2"/><span id = "Choice2"></span></label>
+      <label class = "Choice"><input type="radio" name="Choice" value ="3"/><span id = "Choice3"></span></label>
+      <button id ="next" class= "nextQuestion" onclick="importQuestion();"> Next Question </button>
+        </div>
+
+        <div id="result" class= "container result" style="display:none;">
+        </div>
+        
+       <div id="view_widget">
+       </div>
+    </body>
+</html>
