@@ -1,0 +1,89 @@
+[
+    {
+        "Question":"Which company owns Java?",
+        "Choice1":"Apple",
+        "Choice2":"Microsoft",
+        "Choice3":"Oracle",
+        "Answer":"3"
+    }
+    ,
+    {
+        "Question":"How do you print a new line in Java?",
+        "Choice1":"System.out.print()",
+        "Choice2":"System.out.println()",
+        "Choice3":"Output.println()",
+        "Answer":"2"
+    }
+    ,
+    {
+        "Question":"How do you comment in Java?",
+        "Choice1":"//",
+        "Choice2":"!",
+        "Choice3":"Comment:",
+        "Answer":"1"
+    }
+    ,
+    {
+        "Question":"How do you store text?",
+        "Choice1":"String",
+        "Choice2":"int",
+        "Choice3":"double",
+        "Answer":"1"
+    }
+    ,
+    {
+        "Question":"Which would you use to store the number 3.25?",
+        "Choice1":"int",
+        "Choice2":"double",
+        "Choice3":"boolean",
+        "Answer":"2"
+    }
+    ,
+    {
+        "Question":"How do you initialize the variable num that equals 10?",
+        "Choice1":"int num = 10",
+        "Choice2":"String num = 10",
+        "Choice3":"num = 10",
+        "Answer":"1"
+    }
+    ,
+    {
+        "Question":"Which operator compares?",
+        "Choice1":"==",
+        "Choice2":"=",
+        "Choice3":"Compare()",
+        "Answer":"1"
+    }
+    ,
+    {
+        "Question":"How do you create a method?",
+        "Choice1":"method[]",
+        "Choice2":"method:",
+        "Choice3":"method()",
+        "Answer":"3"
+    }
+    ,
+    {
+        "Question":"What word is used to make a class?",
+        "Choice1":"class",
+        "Choice2":"class()",
+        "Choice3":"NewClass",
+        "Answer":"1"
+    }
+    ,
+    {
+        "Question":"How do you multiply in Java?",
+        "Choice1":"%",
+        "Choice2":"*",
+        "Choice3":"x",
+        "Answer":"2"
+    }
+    ,
+    {
+        "Question":"How do you import a package?",
+        "Choice1":"package",
+        "Choice2":"git clone",
+        "Choice3":"import",
+        "Answer":"3"
+    }
+]
